@@ -1,0 +1,78 @@
+/*
+	作者：何红春
+	日期：2017/5/6
+	任务：登录模块样式
+	版本：1.0
+*/
+.login h1 {
+	color: #000000;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	font-weight: normal;
+}
+
+.login a img {
+	width: 4%;
+	height: 6%;
+	float: right;
+}
+
+.login input {
+	width: 270px;
+	height: 18px;
+	margin-bottom: 15px;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	color: #000;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	border-radius: 4px;
+	background-color: #fff;
+	margin-bottom: 20px;
+	display: block;
+	margin-left: 26%;
+}
+.login #userType{
+	font-size:16px;
+	display:inline-block;
+	width:20px;
+	margin-left:10px;
+}
+.login #teacher{
+	font-size:16px;
+	display:inline-block;
+	width:20px;
+	margin-left:40px;
+}
+
+.subBtn {
+	width: 70px;
+	min-height: 20px;
+	background-color: #3762bc;
+	border: 1px solid #3762bc;
+	color: #fff;
+	padding: 9px 14px;
+	font-size: 15px;
+	line-height: normal;
+	border-radius: 5px;
+	margin-left: 2%;
+	margin-right: 5%;
+}
+
+.resetBtn {
+	width: 70px;
+	min-height: 20px;
+	background-color: #3762bc;
+	border: 1px solid #3762bc;
+	color: #fff;
+	padding: 9px 14px;
+	font-size: 15px;
+	line-height: normal;
+	border-radius: 5px;
+	margin: 0;
+}

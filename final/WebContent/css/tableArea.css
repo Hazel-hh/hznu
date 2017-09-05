@@ -1,0 +1,82 @@
+/*
+	作者：何红春
+	日期：2017/5/10
+	任务：表格样式
+	版本：1.0
+*/
+@CHARSET "UTF-8";
+.wrapper {
+	position: relative;
+	width: 100%;
+	height: 170px;
+}
+.main{	
+	background-color:#ffffff;
+	height:700px;
+	z-index:999;
+	padding-top:10px;
+	z-index:9;
+	position:relative;	
+}
+.main .tableArea{
+	width:80%;
+	margin:0 auto;
+	margin-top:20px;
+	float:right;
+	padding-left:20px;
+	padding-right:20px;
+	margin-right:20px;
+}
+.main .operate{
+	float:right;
+	margin-right:4.2%;
+	margin-top:20px;
+	margin-bottom:100px;
+}
+
+.editBtn{
+	background-color:#fff;
+	color:#337ab7;
+	border:0;
+	margin-left:5px;
+	margin-right:5px;
+}
+.main .operate button{
+	background-color:#fff;
+	color:blue;
+	border:0;
+	margin-left:5px;
+	margin-right:5px;
+}
+.hr{
+	margin:0 auto;
+	margin-top:80px;
+	height:2px;
+	border-top:1px solid #1d1d1d;
+	width:80%;
+}
+.statistics{
+	margin:0 auto;
+	margin-bottom:20px;
+}
+.main .tableArea tr{
+	height:40px;
+}
+.main .tableArea caption{
+	margin:0 auto;
+	font-weight:bold;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:20px;
+	text-align:center;
+	color:#000;	
+}
+.tableArea tr a:hover{
+	color:#0080c0;
+}
+.countArea{	
+	position:relative;
+	margin:0 auto;
+	text-align:center;
+	top:140px;
+}

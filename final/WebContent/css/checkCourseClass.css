@@ -1,0 +1,65 @@
+/*
+	作者：何红春
+	日期：2017/5/10
+	任务：任务发布页面
+	版本：1.0
+*/
+/*
+.main{
+	height:650px;
+}
+@CHARSET "UTF-8";
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+.main .content {
+/* 	max-width:640px;
+	width:100%;
+	margin:0 auto; */
+}*/
+.main{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	height: 80vh;
+    justify-content: space-around;
+}
+.content {
+	/* height: 60vh; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:55%;
+}
+.cnt{
+	height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+.content fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+
+

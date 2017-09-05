@@ -1,0 +1,342 @@
+/*
+	作者：何红春
+	日期：2017/5/6
+	任务：首页导航栏样式
+	版本：1.0
+*/
+/*================页面样式=================*/
+html, body, div, span, h1, h2, h3, p, em, small, strong, dl, dt, dd, ol, ul, li {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+/*
+em, strong, i {
+  font-style: normal;
+}*/
+/*
+h1, h2, h3 {
+  font-weight: normal;
+}*/
+
+.wrapper { line-height: 1; font-size: 14px; font-family: "Microsoft Yahei"; color: #333; background-color: #2D2D2D; }
+.wrapper ul, ol {
+  list-style: none;
+}
+.wrapper a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.wrapper input, button {
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+}
+/*
+.wrapper img {
+  vertical-align: top;
+}*/
+
+/*===================header样式====================*/
+.wrapper {
+	position: relative;
+	width: 100%;
+	height: 570px;
+	overflow: hidden;
+}
+
+.bg-white {
+	display: none;
+	position: absolute;
+	z-index: 998;
+	width: 100%;
+	height: 62px;
+	background-color: #fff;
+}
+
+.header {
+	position: relative;
+	z-index: 999;
+	left: 0;
+	top: 0;
+	height: 62px;
+}
+
+.header .container {
+	width: 1080px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+.nav {
+	margin-top: 10px;
+	float: left;
+	margin-left: 96px;
+}
+
+.header .nav-item {
+	float: left;
+	position: relative;
+}
+
+.header .nav-item a {
+	padding: 20px 20px 0;
+	height: 42px;
+	line-height: 42px;
+}
+
+.nav-item a:hover {
+	color: rgb(49, 165, 231);
+}
+
+.sub-nav {
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 62px;
+	z-index: 999;
+	width: 100%;
+	background-color: #fff;
+}
+
+.sub-nav__wrap {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+	z-index: 999;
+}
+
+.sub-nav__wrap[data-link="nav_info"] {
+	padding-left: 380px;
+}
+
+.sub-nav__wrap[data-link="nav_TeaM"] {
+	padding-left: 310px;
+}
+.sub-nav__wrap[data-link="nav_Teacher"] {
+	padding-left: 500px;
+}
+
+.sub-nav a {
+	float: left;
+	width: 140px;
+	padding-top: 14px;
+	text-align: center;
+	color: #666;
+}
+
+.sub-nav a:hover {
+	color: #111;
+}
+
+.sub-nav a img {
+	display: inline-block;
+	height: 60px;
+}
+
+.sub-nav a span {
+	display: block;
+	padding-top: 18px;
+	font-size: 12px;
+}
+
+.user {
+	float: right;
+	position: relative;
+	width: 60px;
+	height: 12px;
+}
+
+.user:hover .user-hover, .user:hover .user-info {
+	display: block;
+}
+
+.user-img {
+	position: absolute;
+	z-index: 3;
+	width: 60px;
+	padding-top: 20px;
+	padding-left: 13px;
+}
+
+.user-img .arrow-bg, .user-img .arrow-font {
+	position: absolute;
+	top: 28px;
+	left: 40px;
+}
+
+.user-img .arrow-bg {
+	border-width: 6px;
+	border-color: #999 transparent transparent transparent;
+	border-style: solid dashed dashed;
+}
+
+.user-img .arrow-font {
+	left: 41px;
+	border-width: 5px;
+	border-color: #fff transparent transparent transparent;
+	border-style: solid dashed dashed;
+}
+
+.user .user-hover {
+	display: none;
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	width: 60px;
+	height: 82px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-top: 3px solid #1395e4;
+	background-color: #fff;
+}
+
+.user-info {
+	display: none;
+	position: absolute;
+	z-index: 999;
+	right: 0;
+	top: 65px;
+	height: 80px;
+	background-color: #fff;
+	font-size: 14px;
+	width: 120px;
+}
+
+.user-info ul {
+	padding: 0 20px;
+}
+
+.user-info li {
+	width: 112px;
+	margin-top: 10px;
+}
+
+.user-info li img{
+	width: 18%;
+	height: 20%;
+	margin-right: 14px;
+	margin-top: 4px;
+}
+
+.user-info a {
+	color: #515151;
+}
+
+.user-info a:hover {
+	color: rgb(49, 165, 231);
+}
+
+.user-info li.login a {
+	width: 112px;
+	height: 30px;
+	text-align: center;
+	color: #fff;
+	background-color: #3399ff;
+}
+
+.user-info li.logout {
+	color: #999;
+	display:block;
+}
+
+.user-info li.logout a {
+	color: #21A9E7;
+}
+.user-info li.logout a:hover {
+	text-decoration: underline;
+}
+.user-info li.logout.loginImg{
+	margin-top:0px;
+}
+
+/* ======== 幻灯片样式 ======== */
+.slider-box {
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.slider {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.slider-item {
+	float: left;
+	cursor: default;
+}
+
+.slider-box .btn-box {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+	font-size: 0;
+}
+
+.slider-box .btn-item {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 0 12px;
+	border-radius: 50%;
+	background-color: #666;
+}
+
+.slider-box .btn-item__cur {
+	width: 12px;
+	height: 12px;
+	margin-bottom: -2px;
+	border: 1px solid #666;
+	background-color: transparent;
+}
+
+.btn, .slider-title, .btn-box {
+	z-index: 9;
+}
+
+/* ======== 主题样式 ======== */
+.theme-white .nav-item a {
+	color: #fff;
+}
+.theme-white .nav-item a:hover {
+	color: rgb(49, 165, 231);
+}
+
+.theme-white .slider-box .btn-item {
+	/* background-color: #fff; */
+	background-color:#000;
+}
+
+.theme-white .slider-box .btn-item__cur {
+	/* background-color: transparent; */
+	background-color:#c0c0c0;
+	border-color: #fff;
+	
+}
+
+.theme-nav .nav-item a {
+	color: #333;
+}
+
+.theme-nav .nav-item a:hover {
+	color: rgb(49, 165, 231);
+}
+
+.userName {
+	color: #fff;
+	margin-right: 20px;
+	z-index: 10;
+}
+
+.theme-white .userName {
+	color: #000;
+}

@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+/*提交任务列表
+*/
+
+.oneRow .oneRow-left{
+	float:left;
+	width:14%;
+	margin-left:10%;
+	text-align:right;
+}
+.oneRow .oneRow-right{
+	float:right;
+	width:60%;
+	margin-right:14%;
+	text-align:left;
+}
+.oneRow{
+	width:80%;
+	clear:both;
+	margin-bottom:20px;
+	font-size:16px;
+	height:14px;
+}
+.oneRow textArea{
+	width:100%;
+}
+.uploadArea{
+	margin-top:120px;
+}
+.finishForm .uploadBtn{	
+	margin-left:300px;
+	margin-top:300px;
+}
+.finishForm .uploadBtn .btn{
+	margin-right:100px;
+	width:60px;
+}
+.main{
+	height:900px;
+}
+.left{
+	height:900px;
+}
+.functionNav{
+	margin-left:-26px;
+	margin-top:-30px;
+	margin-bottom:50px;
+}
+.list .listItem{
+	list-style:none;
+	height:30px;
+	width:93%;
+}
+.list .listItem .listItem-left{
+	float:left;
+	width:78%;
+	color:#0080c0;
+}
+.list .listItem .listItem-right{
+	margin-left:6%;
+	text-align:right;
+}
+.list .listItem a{
+	font-size:16px;
+	color:#000;
+	height:30px;
+}
+
+.list .listItem a:hover{
+	 background-color:#f0f0f0;
+	display:block;
+}

@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+#task .birthday,.sdept,.major{
+	width:20%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	height:40px;
+}
+
+#task .stupwd{
+	width:35%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	margin-right:12.5%;
+	height:40px;
+}
+#task .stugender{
+	width:35%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	height:40px;
+	
+}
+#task .birthday,.sdept{
+	margin-right:4%;
+}

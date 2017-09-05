@@ -1,0 +1,32 @@
+/*
+	作者：何红春
+	日期：2017/5/4
+	任务：footer底部样式
+	版本：1.0
+*/
+.footer {
+	height: 130px;
+	background-color: #FFFFFF;
+	padding-top: 14px;
+}
+
+.footer p {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 26px;
+	color: #333;
+	font-size:14px;
+}
+
+.footer p a, .footer p a:visited {
+	color: #333;
+}
+
+.footer p a:hover {
+	text-decoration: underline;
+}
+hr{
+	width:100%;
+}
+	
